@@ -187,20 +187,12 @@ a { color: inherit; text-decoration: none; }
   background: #ebe7f9;
 }
 
-.portrait-placeholder {
-  position: absolute;
-  inset: 32px 42px 0;
-  display: grid;
-  align-items: end;
-  justify-content: center;
-  border-radius: 150px 150px 0 0;
-  background: #232127;
-  color: #fff;
-  font-size: 180px;
-  font-weight: 800;
-  line-height: .78;
-  letter-spacing: -15px;
-  text-indent: -12px;
+.portrait-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
 }
 
 .experience-card {
@@ -511,15 +503,6 @@ a:focus-visible {
   border: 8px solid rgba(255, 255, 255, .76);
   box-shadow: 0 30px 70px rgba(42, 42, 62, .14);
   background: linear-gradient(155deg, #f3f0ff, #d7d1f5);
-}
-
-.portrait-placeholder {
-  background:
-    radial-gradient(ellipse at 50% 34%, rgba(214, 208, 255, .22), transparent 40%),
-    linear-gradient(160deg, #34364c, #1d2030 72%);
-  font-size: 124px;
-  letter-spacing: -10px;
-  text-indent: -8px;
 }
 
 .experience-card {
