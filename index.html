@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Muhammad Yusuf Abdurahmonov portfolio" />
+    <meta name="theme-color" content="#f8f8f5" />
     <title>Muhammad Yusuf Abdurahmonov — Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Asosiy mazmunga o‘tish</a>
     <header class="header">
       <a class="logo" href="#" aria-label="Bosh sahifa">MY<span>.</span></a>
       <nav class="nav" aria-label="Asosiy menyu">
@@ -21,9 +23,9 @@
       <a class="header-btn" href="#contact">Bog‘lanish</a>
     </header>
 
-    <main>
+    <main id="main">
       <section class="hero" id="about">
-        <div class="hero-copy">
+        <div class="hero-copy reveal">
           <p class="eyebrow"><span></span> Frontend Developer</p>
           <h1>Salom, men<br /><strong>Muhammad Yusuf<br />Abdurahmonov</strong></h1>
           <p class="intro">
@@ -36,12 +38,12 @@
           </div>
         </div>
 
-        <div class="hero-art" aria-label="Portfolio aksenti">
+        <div class="hero-art reveal" role="img" aria-label="Muhammad Yusuf, 20 yoshda">
           <div class="shape shape-one"></div>
           <div class="shape shape-two"></div>
           <div class="portrait">
             <div class="portrait-placeholder">
-              <span>A</span>
+              <span>MY</span>
             </div>
           </div>
           <div class="experience-card">
@@ -52,16 +54,16 @@
       </section>
 
       <section class="projects" id="projects">
-        <div class="section-heading">
+        <div class="section-heading reveal">
           <div>
             <p class="eyebrow"><span></span> Tanlangan loyihalar</p>
-            <h2>So‘ngi ishlarim</h2>
+            <h2>So‘nggi ishlarim</h2>
           </div>
           <a class="text-btn" href="#contact">Hammasini ko‘rish <span>→</span></a>
         </div>
 
         <div class="project-grid">
-          <article class="project-card">
+          <article class="project-card reveal">
             <div class="project-preview preview-one">
               <div class="browser-bar"><i></i><i></i><i></i></div>
               <div class="mockup-dashboard">
@@ -78,7 +80,7 @@
             </div>
           </article>
 
-          <article class="project-card">
+          <article class="project-card reveal">
             <div class="project-preview preview-two">
               <div class="phone phone-back"></div>
               <div class="phone phone-front">
@@ -97,7 +99,7 @@
         </div>
       </section>
 
-      <section class="contact" id="contact">
+      <section class="contact reveal" id="contact">
         <p class="eyebrow"><span></span> Loyihangiz bormi?</p>
         <h2>Keling, birga ajoyib ish qilamiz.</h2>
         <a class="primary-btn" href="mailto:hello@example.com">Xabar yuborish <span>↗</span></a>
