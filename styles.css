@@ -481,6 +481,26 @@ a:focus-visible {
   font-size: 16px;
 }
 
+.education-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: -12px 0 28px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.education-note span {
+  padding: 7px 11px;
+  border: 1px solid rgba(201, 196, 250, .72);
+  border-radius: 999px;
+  background: rgba(201, 196, 250, .2);
+  color: #5f5a87;
+  font-size: 11px;
+  letter-spacing: .5px;
+}
+
 .primary-btn {
   box-shadow: 0 8px 18px rgba(125, 151, 53, .12);
 }
